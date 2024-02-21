@@ -38,6 +38,7 @@ const actions: AuthAction[] = [
 	'callback',
 	'verify-request',
 	'error',
+	'webauthn-options',
 ]
 
 function AstroAuthHandler(prefix: string, options = authConfig) {
